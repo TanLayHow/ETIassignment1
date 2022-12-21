@@ -25,7 +25,7 @@ A passenger is able to login through the main menu.<br/>
 **<br>Action 2: Create account<br/>**
 A passenger is able to create account through the main menu. Then he will select the 'Passenger' role and input his information.<br/>
 **<br>Action 3: Update account details<br/>**
-A passenger is able to update account details by first logging in. Then he will select the Update account option and input his new information.<br/>
+A passenger is able to update account details by first logging in. Then he will select the update account option and input his new information.<br/>
 **<br>Action 4: Book a ride<br/>**
 A passenger is able to book a ride after logging in. Then choose the book a ride option. There, he needs to input the postal codes to and fro, and the system will check for an available driver.<br/>
 **<br>Action 5: View bookings<br/>**
@@ -36,3 +36,12 @@ A passenger is able to view his previous bookings after logging in. Then choose 
 A driver is able to login through the main menu.<br/>
 **<br>Action 2: Create account<br/>**
 A driver is able to create account through the main menu. Then he will select the 'Driver' role and input his information.<br/>
+**<br>Action 3: Update account details<br/>**
+A driver is able to update account details after logging in. Then he will select the update account option and input his new information.<br/>
+**<br>Action 4: Start trip<br/>**
+A driver is able to start a trip only if there is a trip assigned to him. He will first login, then select the start trip option. If there is a trip assigned, he can choose to start the trip, else, it is not an option.<br/>
+**<br>Action 5: End trip<br/>**
+A driver is able to end a trip only if he is has started a trip. He will first login, then select the end trip option. If he has started a trip, he can choose to end the trip, else, it is not an option.
+
+- Running Microservices
+<br>To run each of the microservice, make sure 3 different tabs are opened. Launch each of the microservice and type in their name.go in the terminal, corresponding to their microservice name. Make sure all 3 microservices are started before trying out the program.<br/>
