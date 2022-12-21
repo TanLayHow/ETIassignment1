@@ -19,7 +19,7 @@ Each of the microservice has its own sql script, their own table to retrieve and
 <br>Next, when the microservices needs to access their database, they will use queries to retrieve and send messages from the sql databases. Thus, the whole program is working together independently.<br/>
 
 ## Instructions
-- Passenger
+- **<ins>Passenger</ins>**
 **<br>Action 1: Login<br/>**
 A passenger is able to login through the main menu.<br/>
 **<br>Action 2: Create account<br/>**
@@ -31,7 +31,7 @@ A passenger is able to book a ride after logging in. Then choose the book a ride
 **<br>Action 5: View bookings<br/>**
 A passenger is able to view his previous bookings after logging in. Then choose the view bookings option and it will be displayed.
 
-- Driver
+- **<ins>Driver</ins>**
 **<br>Action 1: Login<br/>**
 A driver is able to login through the main menu.<br/>
 **<br>Action 2: Create account<br/>**
@@ -43,5 +43,5 @@ A driver is able to start a trip only if there is a trip assigned to him. He wil
 **<br>Action 5: End trip<br/>**
 A driver is able to end a trip only if he is has started a trip. He will first login, then select the end trip option. If he has started a trip, he can choose to end the trip, else, it is not an option.
 
-- Running Microservices
+- **<ins>Running Microservices</ins>**
 <br>To run each of the microservice, make sure 3 different tabs are opened. Launch each of the microservice and type in their name.go in the terminal, corresponding to their microservice name. Make sure all 3 microservices are started before trying out the program.<br/>
