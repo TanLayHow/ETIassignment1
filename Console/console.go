@@ -347,7 +347,7 @@ outer:
 		fmt.Println("[1] Update Account Details")
 		fmt.Println("[2] Book Ride")
 		fmt.Println("[3] View Rides")
-		fmt.Println("[0] Exit")
+		fmt.Println("[0] Logout")
 
 		// Read input for menu
 		reader := bufio.NewReader(os.Stdin)
@@ -486,7 +486,7 @@ outer:
 		fmt.Println("[1] Update Account Details")
 		fmt.Println("[2] Start trip")
 		fmt.Println("[3] End trip")
-		fmt.Println("[0] Exit")
+		fmt.Println("[0] Logout")
 
 		// Read driver choice
 		reader := bufio.NewReader(os.Stdin)
